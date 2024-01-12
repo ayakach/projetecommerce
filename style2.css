@@ -1,0 +1,206 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.women{
+    display: flex;
+}
+.women img{
+    width: 100%;
+    height:auto;
+}
+.rouges{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+#kach4{
+    font-size: 60px;
+    color:rgb(31, 29, 29);
+    font-weight: 600;  
+}
+
+.p4 img{
+    margin-right: 20px;
+}
+#b7{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    border-radius: 17px;
+    background-color: #333;
+    color: white;
+    padding: 7px 30px ;
+}
+#b7:hover{
+    color: black;
+    background-color: rgb(107, 6, 6);
+}
+#p4:hover{
+    width: 300px;
+}
+.p4 p{
+    text-align: center;
+}
+b{
+    margin-left: 18px;
+}
+.fondde{
+width: 100%;
+margin-left: 70px;
+display: flex;
+}
+footer{
+    background-color: #020202;
+}
+.footerco{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicon{
+    display:flex;
+    justify-content: center;
+}
+.socialicon a{
+    text-decoration: none;
+    padding:10px;
+    background-color: white;
+    margin:10px;
+    border-radius: 50%;
+}
+.socialicon a i{
+    font-size: 2em;
+    color: #020202;
+    opacity:0.9;
+}
+.socialicon a:hover{
+    background-color: #020202;
+    transition: 0.5s;
+}
+.socialicon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+   display:flex;
+   justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity:1;
+}
+.footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+
+}
+#designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+}
+#ayaa{
+    font-size: medium;
+}
+.petitmots{
+    display: flex;
+}
+#eya{
+    margin-top: 170px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 40px;
+    color: #020202;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.ayaa{
+    margin-top: 80px;
+}
+.rouges2{
+    display:flex;
+}
+.p5{
+    width:20%;
+}
+.trousses77{
+    margin-left: 40px;
+    padding-left: 40px;
+    border: #020202;
+    background-color: rgb(0, 255, 55);
+    display: flex;
+}
+.box77{
+    display: flex;
+}
+#b9{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    border-radius: 17px;
+    background-color: #333;
+    color: white;
+    padding: 7px 30px ;
+}
+#b9:hover{
+    color: black;
+    background-color:beige;
+}
+.promotion{
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin-top: 70px;
+    margin-left: 26px;
+    margin-right: 70px;
+ }
+ .article{
+    scroll-snap-align: center;
+    min-width:30%;
+ }

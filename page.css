@@ -1,0 +1,25 @@
+.navbar {
+    overflow: hidden;
+    background-color: #f7f6f6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #2e2a2a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  #logout{
+    background-color: rgb(170, 39, 39);
+  }
